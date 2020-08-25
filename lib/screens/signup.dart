@@ -65,10 +65,10 @@ class SignUpScreen extends StatelessWidget {
                       Navigator.of(context).push(
                           MaterialPageRoute(builder: (ctx) => WelcomeScreen()));
                     },
-                    child: Text('Sign in')),
+                    child: Text('Sign up')),
               ),
               SizedBox(
-                height: 100,
+                height: 90,
               ),
               Center(
                 child: Text('privacy policy',
